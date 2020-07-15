@@ -1,0 +1,30 @@
+{
+  "name": "vamoos-loops",
+  "version": "1.0.0",
+  "description": "A small program that provides a four different implementations that iterates through a collection to request and extract the dimensions of an image",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx env-cmd -e production,test -r ../../.env-cmdrc npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jd-sweeney/vamoos-loops"
+  },
+  "keywords": [
+    "Vamoos Loops"
+  ],
+  "author": "Joshua Duenas",
+  "bugs": {
+    "url": "https://github.com/jd-sweeney/vamoos-loops/issues"
+  },
+  "homepage": "https://github.com/jd-sweeney/vamoos-loops#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "jest": "^26.1.0",
+    "jest-extended": "^0.11.5"
+  },
+  "dependencies": {
+    "image-size": "^0.8.3",
+    "node-fetch": "^2.6.0"
+  }
+}

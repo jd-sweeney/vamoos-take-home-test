@@ -1,0 +1,29 @@
+{
+  "name": "vamoos",
+  "private": true,
+  "description": "A mono-repo house all the vamoos related libraries",
+  "dependencies": {},
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "husky": "^4.2.5",
+    "lerna": "^3.22.1",
+    "prettier": "^2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jd-sweeney/vamoos"
+  },
+  "bugs": {
+    "url": "https://github.com/jd-sweeney/vamoos/issues"
+  },
+  "homepage": "https://github.com/jd-sweeney/vamoos#readme",
+  "keywords": [
+    "Vamoos",
+    "Vamoos Api",
+    "Vamoos Loops"
+  ],
+  "author": "Joshua Duenas",
+  "scripts": {
+    "test": "npx lerna run test"
+  }
+}
